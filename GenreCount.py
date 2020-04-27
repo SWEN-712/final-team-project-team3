@@ -3,6 +3,7 @@ import xlrd
 def count(comval, val):
     #comval = 'Pop'
     cnt = 0
+    #for i in range(l):
     if(val == comval):
         cnt= cnt +1
     return cnt
@@ -16,9 +17,11 @@ def main():
     comval = input("Enter the genre to Search: ")
     cnt = 0
     for i in range(sheet.nrows):
-        cnt += count(comval, sheet.cell_value(i, 0))
-        print(sheet.cell_value(i,0), type(sheet.cell_value(i,0)))
+            for j in range(sheet.ncols):
+                cnt += count(comval, sheet.cell_value(i, j))
+                #print(sheet.cell_value(i,0), type(sheet.cell_value(i,0)))
 
+    #cnt = count(comval, sheet.nrows,sheet.nrows)
     print(comval,': ', cnt)
 
 
