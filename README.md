@@ -3,7 +3,7 @@ This Project focuses on finding the genres that are most popular in the DHH Comm
 
 To extract data from online platforms, we used Pyhton APIs to gather results based off of music pages from twitter and playlists from Spotify.
 
-How to Run the files
+Running the files
 
 TopHastags.py: This is a Python file to extract top Hashtags for a specified twitter account. To use this file enter credentials such as API access token and secret key, also the consumer secret and key. After running the file, console will prompt to provide with a twitter account without '@' annotation and number of tweets to process. Entering the account will generate the top most frequently used hasgtags from that account for the spicified number of tweets.
 
