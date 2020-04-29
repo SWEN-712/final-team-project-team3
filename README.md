@@ -29,7 +29,7 @@ We mine the popular genres, accessiblity services/technologies, composing of mus
 - ```pip install spotipy``` or add it in Project Interpreter from Settings in PyCharm
 
 #### Getting the Artists from DHH Playlists
-- run ```SpotipfyCrawler.py``` 
+- run ```SpotifyCrawler.py``` 
 - input Playlist ID (from the URL) 
 - get the list of Artists
 - save it .csv or .xlxs or any maintainable format 
